@@ -87,29 +87,92 @@ grid-template-columns: 65% 35%;
 }
 .main-video-title{
   padding: 10px 0;
-  font-size:18px;
+  font-size:14px;
   font-weight: 700;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .main-video-views{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: gray;
-}
-.main-video-likes{
-
- 
+  color: rgb(117, 117, 117);
+  font-size: 13px;
 }
 
 .main-video-likes img{
-  height: 25px;
+  height: 20px;
   vertical-align: middle;
 }
 .main-video-likes label{
   vertical-align: middle;
-  margin:0px 5px;
+  padding: 20px 8px;
 }
+
+.like,.dislike{
+  border-bottom: 3px solid rgb(151, 151, 151);
+}
+
 .main-video-likes span{
   color:gray;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
+}
+.main-video-likes .share, .save, .more{
+  margin-left: 10px;
+}
+
+.channel-info{
+  border-top: 1px solid grey;
+  margin-top: 20px;
+}
+.channel-profile-info{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.channel-profile-info .profile{
+  display: flex;
+}
+
+.channel-profile-info .profile img{ 
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.channel-profile-info .profile p{
+  margin:0;
+}
+.channel-profile-info .profile label{
+  margin: 8px 0 0 10px;
+}
+.channel-profile-info .profile p:nth-of-type(1){
+  font-weight: 600;
+}
+.channel-profile-info .profile p:nth-of-type(2){
+  font-weight: 300;
+  color: rgb(94, 94, 94);
+}
+.channel-btn button{
+  font-size: 15px;
+  background-color: #CC0000;
+  color: white;
+  padding: 10px 10px ;
+  border-radius: 3px;
+}
+
+.video-desc{
+  padding: 5px 130px 0 70px;
+}
+.video-desc p{
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: justify;
+}
+.video-desc label{
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 50px 0;
+  cursor: pointer;
 }
