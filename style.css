@@ -69,3 +69,47 @@ input, button{
   width: 35px; 
   object-fit: cover; 
 }
+
+.video-content{
+display:grid;
+grid-template-columns: 65% 35%;
+}
+.main-video{
+  width: 100%;
+  padding: 20px 50px;
+}
+.main-video video{
+  width: 100%;
+}
+.main-video-info{
+  display:flex;
+  justify-content: space-between;
+}
+.main-video-title{
+  padding: 10px 0;
+  font-size:18px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-video-views{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+}
+.main-video-likes{
+
+ 
+}
+
+.main-video-likes img{
+  height: 25px;
+  vertical-align: middle;
+}
+.main-video-likes label{
+  vertical-align: middle;
+  margin:0px 5px;
+}
+.main-video-likes span{
+  color:gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
