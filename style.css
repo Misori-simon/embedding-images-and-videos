@@ -2,14 +2,21 @@ body{
   padding: 0;
   margin: 0;
 }
+input, button{
+  border: 1px solid #e9e8e8;
+  border-radius: 0px;
+  outline: none;
+}
+
 
 .container{
-  width: 100%; 
+  width: 100%;
+  background-color: #F0F0F0;
 }
 .header-content{
-  border:  1px solid red;
-  padding: 15px 20px;
+  padding: 13px 35px;
   display: flex;
+  background-color: white;
   justify-content: space-between;
 }
 .logo{
@@ -17,12 +24,48 @@ body{
 }
 
 .logo img:nth-of-type(1){
-  width: 28px;
+  width: 25px;
   vertical-align: middle;
-  height: 28px; 
+  height: 25px; 
 }
 .logo img:nth-of-type(2){
   margin-left: 20px;
   vertical-align: middle;
-  width: 130px;
+  width: 100px;
+}
+
+.search-bar{
+  display: table;
+}
+
+.search-bar input{
+  height: 30px;
+  width: 400px;
+  padding-left: 15px;
+  vertical-align: middle;
+}
+.search-bar button{
+ background-color: #F0F0F0; 
+ padding: 6.5px 15px;
+ vertical-align: middle;
+}
+.search-bar button img{
+  height: 15px;
+}
+
+.profile-icons{
+  display: table;
+}
+
+.profile-icons img{
+  height: 22px;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+.profile-icons img:nth-of-type(4){
+  border-radius: 50%;
+  height: 35px;
+  vertical-align: middle;
+  width: 35px; 
+  object-fit: cover; 
 }
