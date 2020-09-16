@@ -6,6 +6,7 @@
   <title>EMBEDDING IMAGES AND VIDEO</title>
   <link rel="stylesheet" type="text/css" href="./style.css"/>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 <body>
   <div class="container">
@@ -23,97 +24,230 @@
           <i class="fa fa-video-camera" aria-hidden="true"></i>
           <i class="fa fa-th" aria-hidden="true"></i>
           <i class="fa fa-bell" aria-hidden="true"></i>
-          <img src="profile.jpg" alt="">
+          <img src="avatars/amadou.jpg" alt="">
          </div>
        </div>
      </header>
-     <section class="video-content">
-       
-         <div class="main-video">
-          <video controls>
-            <source src="https://youtu.be/kpAPl0TcwL0" type="video/mp4">
-          </video>
-          <div class="main-video-title">
-            Barcelona to FREEZE OUT Luis Suarez if he refuses to leave the club?
-          </div>
-          <div class="main-video-info">
-            <div class="main-video-views">
-              102,328 views • Sep 14, 2020
-            </div>
-            <div class="main-video-likes">
-              <label class="like">
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                <span>10k</span>
-              </label>
+     <main class="video-content">
+      <section class="main-video">
+      <video controls>
+        <source src="https://youtu.be/kpAPl0TcwL0" type="video/mp4">
+      </video>
+      <div class="main-video-title">
+        Barcelona to FREEZE OUT Luis Suarez if he refuses to leave the club?
+      </div>
+      <div class="main-video-info">
+        <div class="main-video-views">
+          102,328 views • Sep 14, 2020
+        </div>
+        <div class="main-video-likes">
+          <label class="like">
+            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+            <span>10k</span>
+          </label>
 
-              <label class="dislike">
-                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                <span>56</span>
-              </label>
-              <label class="share">
-                <i class="fa fa-share" aria-hidden="true"></i>
-                <span>SHARE</span>
-              </label>
-              <label class="save">
-                <i class="fa fa-list" aria-hidden="true"></i>
-                <span>SAVE</span>
-              </label>
-              <label class="more">
-               <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-              </label>
-            </div>
+          <label class="dislike">
+            <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+            <span>56</span>
+          </label>
+          <label class="share">
+            <i class="fa fa-share" aria-hidden="true"></i>
+            <span>SHARE</span>
+          </label>
+          <label class="save">
+            <i class="fa fa-list" aria-hidden="true"></i>
+            <span>SAVE</span>
+          </label>
+          <label class="more">
+            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+          </label>
+        </div>
+      </div>
+      <div class="channel-info">
+        <div class="channel-profile-info">
+          <div class="profile">
+            <img src="avatars/chems.jpg" alt="" />
+            <label for="">
+              <p>Chems</p>
+              <p>234k subscribes</p>
+            </label>
           </div>
-          <div class="channel-info">
-            <div class="channel-profile-info">
-              <div class="profile">
-                <img src="profile.jpg" alt="" />
-                <label for="">
-                  <p>Obama</p>
-                  <p>234k subscribes</p>
+          <div class="channel-btn">
+            <button>SUBSCRIBE</button>
+          </div>
+        </div>
+        <div class="video-desc">
+          <p>
+            In this video we learn how to log a user in through the Facebook Graph API using PHP. We create a login link to Facebook, send them there and present them with the Facebook login dialog, they accept, and get redirected back to our website. Upon redirect, we get an access token from 
+          </p>
+          <label>SHOW MORE</label>
+        </div>
+      </div>
+      <div class="comment-section">
+        <div class="comment-info">
+          <label>950 Comments</label>
+          <label>
+            <i class="fa fa-sort-amount-desc" aria-hidden="true"></i> 
+            <span>SORT BY</span>
+          </label>
+        </div>
+
+      </div>
+      <div class="comment-input">
+        <img src="avatars/amadou.jpg" alt="" />
+        <input type="text" placeholder="Add a plibic comment" />
+      </div>
+      <div class="comment-button">
+          <button>Comment</button>
+          <button>Cancel</button>
+      </div>
+      <div class="comments">
+        <div class="comment-item">
+          <div class="comment-item-info">
+            <img src="avatars/bobby.jpg" alt="" />
+            <label>
+              <span>Bobby</span>
+              <small>One year ago</small>
+              <p>I don’t think some of these are luxury..</p>
+              <div>
+                <label>
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <small>10k</small>
                 </label>
+                <label>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <small>56</small>
+                </label>     
+                <button>REPLY</button>
               </div>
-              <div class="channel-btn">
-                <button>SUBSCRIBE</button>
+                  <p class="replies"><i class="fa fa-caret-down" aria-hidden="true"></i>View 15 replies</p>
+            </label>
+          </div>
+          <div>
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="comment-item">
+          <div class="comment-item-info">
+            <img src="avatars/daniel.jpg" alt="" />
+            <label>
+              <span>Daniel</span>
+              <small>One year ago</small>
+              <p>Honestly I would like to have the house 3:00 it’s simple and looks really warm. The auroura lights were the best part</p>
+              <div>
+                <label>
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <small>10k</small>
+                </label>
+                <label>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <small>56</small>
+                </label>     
+                <button>REPLY</button>
               </div>
-            </div>
-            <div class="video-desc">
-              <p>
-                In this video we learn how to log a user in through the Facebook Graph API using PHP. We create a login link to Facebook, send them there and present them with the Facebook login dialog, they accept, and get redirected back to our website. Upon redirect, we get an access token from 
-              </p>
-              <label>SHOW MORE</label>
-            </div>
+            </label>
           </div>
-          <div class="comment-section">
-            <div class="comment-info">
-              <label>950 Comments</label>
-              <label>
-                <i class="fa fa-sort-amount-desc" aria-hidden="true"></i> 
-                <span>SORT BY</span>
-              </label>
-            </div>
+          <div>
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="comment-item">
+          <div class="comment-item-info">
+            <img src="avatars/david.jpg" alt="" />
+            <label>
+              <span>David</span>
+              <small>One year ago</small>
+              <p>I have a eleMMent palazzo toy at home. :)</p>
+              <div>
+                <label>
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <small>10k</small>
+                </label>
+                <label>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <small>56</small>
+                </label>     
+                <button>REPLY</button>
+              </div>
+              <p class="replies"><i class="fa fa-caret-down" aria-hidden="true"></i>View 15 replies</p>
+            </label>
+          </div>
+          <div>
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="comment-item">
+          <div class="comment-item-info">
+            <img src="avatars/aline.jpg" alt="" />
+            <label>
+              <span>Aline</span>
+              <small>One year ago</small>
+              <p>How are we supposed to see these houses if you keep jump cutting away every eight tenths of second?  Who ever edited this didn't take their Ritalin today.</p>
+              <div>
+                <label>
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <small>10k</small>
+                </label>
+                <label>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <small>56</small>
+                </label>     
+                <button>REPLY</button>
+              </div>
+            </label>
+          </div>
+          <div>
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="comment-item">
+          <div class="comment-item-info">
+            <img src="avatars/brian.jpg" alt="" />
+            <label>
+              <span>Brian</span>
+              <small>One year ago</small>
+              <p>Why is almost every single house that’s expensive, modern?</p>
+              <div>
+                <label>
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <small>10k</small>
+                </label>
+                <label>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <small>56</small>
+                </label>     
+                <button>REPLY</button>
+              </div>
+            </label>
+          </div>
+          <div>
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+
+      </section>
+      <aside class="other-videos">   
+        <div class="title">
+          <label> Up next</label>
+          <label>
+            <span>AUTOPLAY</span>
+            <label>
+              <input id="checkbox" type="checkbox" />
+              <div class="custom-check">
+                <span class="back"></span>
+                <span class="ball"></span>
+              </div>
+            </label>
+          </label>
+        </div> 
+        <div class="suggested-videos">
+          <div class="suggested-videos">
 
           </div>
-          <div class="comment-input">
-            <img src="profile.jpg" alt="">
-            <input type="text" placeholder="Add a plibic comment">
-          </div>
-          <div class="comment-button">
-              <button>Comment</button>
-              <button>Cancel</button>
-          </div>
-          <div class="comment">
-            
-          </div>
-
-         </div>
-
-
-
-         <div class="other-videos">
-            
-         </div>
-       
-     </section>
+        </div> 
+      </aside>
+    </main>
   </div>
 </body>
 </html>

@@ -1,6 +1,7 @@
 body{
   padding: 0;
   margin: 0;
+  font-family: 'Roboto';
 }
 input, button{
   border: 1px solid #e9e8e8;
@@ -74,12 +75,14 @@ i{
 }
 
 .video-content{
-display:grid;
-grid-template-columns: 65% 35%;
+  display:grid;
+  grid-template-columns: 65% 35%;
+  padding: 20px 90px;
+
 }
 .main-video{
   width: 100%;
-  padding: 20px 50px;
+  border:  1px solid red;
 }
 .main-video video{
   width: 100%;
@@ -254,3 +257,147 @@ justify-content: left;
    padding: 10px 10px ;
    cursor: pointer;
  }
+
+.comments{
+  clear: both;
+  padding: 10px 0;
+}
+
+.comment-item{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.comment-item .comment-item-info{
+  display: flex;
+}
+
+.comment-item  .comment-item-info img{ 
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* .comment-item .comment-item-info p{
+  margin:0;
+} */
+.comment-item-info > label{
+  margin-left: 15px;
+}
+.comment-item-info > label span:nth-of-type(1){
+  font-weight: 600;
+}
+.comment-item-info > label small{
+  font-weight: 300;
+  color: #555555;
+}
+.comment-item-info > label p{
+  font-weight: 500;
+  color: #111111;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.comment-item-info > label > div label{
+  margin: 0 10px 0 0;
+}
+.comment-item-info > label > div button{
+  margin: 0 10px 0 0;
+  font-weight: 700;
+  color: #4d4d4d;
+  border: 0;
+}
+
+.comment-item > div:nth-of-type(2) i{
+  font-size: 20px;
+  display: none;
+}
+
+.comment-item:hover > div:nth-of-type(2) i{
+  display: block;
+}
+.comment-item .replies{
+  font-size: 15px;
+  color: rgb(56, 42, 255);
+  font-weight: 590;
+}
+.comment-item .replies i{
+  font-size: 15px;
+  color: rgb(56, 42, 255);
+  font-weight: 590;
+  margin-right: 10px;
+}
+
+.other-videos{
+  border: 1px solid red;
+  padding: 15px 40px;
+}
+
+.other-videos .title{
+  display: flex;
+  justify-content: space-between;
+}
+.other-videos .title label:nth-of-type(1){
+  font-size: 18px;
+  color: #353535;
+}
+
+.other-videos .title > label:nth-of-type(2) > span{
+  font-size: 14px;
+  color: #4b4b4b;
+  font-weight: 600;
+  margin: 4px 10px 0 0;
+
+}
+.other-videos .title > label:nth-of-type(2){
+  display: flex;
+}
+.other-videos .title label:nth-of-type(2) label input{
+  width: 0px;
+  display: none;
+  height: 0px;
+}
+
+.other-videos .custom-check{
+  position: relative;
+  width: 35px;
+  height: 30px;
+}
+.other-videos .back{
+  background-color: #d6d6d6;
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  margin-top: 3.4px;
+  border-radius: 20px;
+ }
+.other-videos .ball{
+  background-color: #a1a1a1;
+  border-radius: 50%;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  box-shadow: 0px 3px 3px rgb(116, 116, 116);
+}
+#checkbox:checked  ~ .custom-check .ball{
+  left: 20px; 
+  background-color: #344bcc;
+  transition: .1s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
