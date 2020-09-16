@@ -381,16 +381,75 @@ justify-content: left;
   box-shadow: 0px 3px 3px rgb(116, 116, 116);
 }
 #checkbox:checked  ~ .custom-check .ball{
-  left: 20px; 
+  left: 13px; 
   background-color: #344bcc;
   transition: .1s ease-in-out;
 }
 
+.upnext{
+  width: 100%;
+  display: flex;
+  border:1px solid blue;
+}
+.upnext .suggested-cap{
+  max-width: 180px;
+  position: relative;
+  border: 1px solid red;
 
+}
+.suggested-cap img{
+  width:100%;
+}
+.suggeted-details{
+  padding: 5px;
+}
+.suggested-control{
+  position:absolute;
+  top:0px;
+  right:0px;
+  
+}
+.suggested-control label{
+  display:block;
+  padding: 5px;
+  font-size:18px;
+  background-color: black;
+  margin-bottom: 4px;
+  border-radius:3px;
+}
+.suggested-control label i{
+  color:white;
+}
+.suggeted-details small{
+  display:block;
+  font-size:12px;
+  margin: 0px 0px 5px;
+  font-family: Roboto;
+}
+.suggeted-details .suggested-title{
+  font-weight: bold;
+  
+}
 
+.suggeted-details .suggested-channel{
+  margin-top:10px;
+  color: grey;
+  font-weight: 600;
+  
+}
 
+.suggeted-details .suggested-info{
+  margin-top:10px;
+  color: grey;
+  font-weight: 600;
+}
 
-
+.upnext .more{
+  opacity:0
+}
+.upnext:hover .more{
+  opacity:1;
+}
 
 
 
