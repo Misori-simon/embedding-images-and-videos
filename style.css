@@ -7,31 +7,33 @@ input, button{
   border-radius: 0px;
   outline: none;
 }
-
+i{
+  color: rgb(107, 107, 107);
+}
 
 .container{
   width: 100%;
   background-color: #F0F0F0;
 }
 .header-content{
-  padding: 13px 35px;
+  padding: 15px 35px;
   display: flex;
   background-color: white;
   justify-content: space-between;
 }
 .logo{
   display: table;
+  margin-top: 4px;
 }
 
-.logo img:nth-of-type(1){
-  width: 25px;
+.logo i{
   vertical-align: middle;
-  height: 25px; 
+  font-size: 22px;
 }
-.logo img:nth-of-type(2){
-  margin-left: 20px;
-  vertical-align: middle;
+.logo svg{
   width: 100px;
+  vertical-align: middle;
+  margin-left: 20px;
 }
 
 .search-bar{
@@ -49,21 +51,22 @@ input, button{
  padding: 6.5px 15px;
  vertical-align: middle;
 }
-.search-bar button img{
-  height: 15px;
+.search-bar button i{
+  font-size: 18px;
 }
 
 .profile-icons{
   display: table;
 }
 
-.profile-icons img{
-  height: 22px;
+.profile-icons i{
   vertical-align: middle;
   margin-left: 30px;
+  font-size: 18px;
 }
-.profile-icons img:nth-of-type(4){
+.profile-icons img{
   border-radius: 50%;
+  margin-left: 30px;
   height: 35px;
   vertical-align: middle;
   width: 35px; 
@@ -97,9 +100,9 @@ grid-template-columns: 65% 35%;
   font-size: 13px;
 }
 
-.main-video-likes img{
-  height: 20px;
+.main-video-likes i{
   vertical-align: middle;
+  font-size: 17px;
 }
 .main-video-likes label{
   vertical-align: middle;
