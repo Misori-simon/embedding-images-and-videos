@@ -124,6 +124,8 @@ grid-template-columns: 65% 35%;
 
 .channel-info{
   border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 10px 0 20px;
   margin-top: 20px;
 }
 .channel-profile-info{
@@ -179,3 +181,76 @@ grid-template-columns: 65% 35%;
   padding: 50px 0;
   cursor: pointer;
 }
+
+/*comment section*/
+.comment-section{
+display: flex;
+justify-content: left;
+}
+.comment-info{
+  padding: 10px 0px ;
+}
+.comment-info label{
+  margin-right: 10px;
+  font-size: 13px;
+  font-family: Verdana, Tahoma, sans-serif;
+  
+}
+.comment-info i{
+  font-size: 11px;
+}
+.comment-info label:nth-of-type(2){
+  color: gray;
+
+}
+
+/*comment input*/
+.comment-input{
+  display:flex;
+}
+.comment-input img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.comment-input input{
+ width:100%;
+ background: none;
+ outline: none;
+ border: none;
+ border-bottom: 1px solid lightgray;
+}
+/*on focus*/
+.comment-input input:focus{
+  
+  border-bottom: 2px solid black;
+ }
+ /**/
+ .comment-button{
+  
+   width:100%;
+   padding: 5px 0px;
+  
+ }
+ .comment-button button{
+  
+  float: right;
+  margin-left: 10px;
+  
+ }
+ .comment-button button:nth-of-type(1){
+  font-size: 15px;
+  background-color: #bebdbd;
+  color: white;
+  padding: 10px 10px ;
+  border-radius: 3px;
+  cursor: pointer;
+ }
+ .comment-button button:nth-of-type(2){
+   background: none;
+   border:none;
+   padding: 10px 10px ;
+   cursor: pointer;
+ }
