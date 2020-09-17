@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Embedding images and videos
 > A structural clone of the youtube video player page. including suggeted videos and comment sections.
-![screenshot](./screen-shot.jpg)
+![screenshot](screen-shot.JPG)
 
 
 ## Built With
@@ -25,13 +25,13 @@
 ## Authors
 
 👤 **Rukundo Eric**
-  - GitHub: [@githubhandle](https://github.com/rukundoeric)
-  - Twitter: [@twitterhandle](https://twitter.com/rukundoeric005)
+  - GitHub: [rukundoeric](https://github.com/rukundoeric)
+  - Twitter: [@rukundoeric005](https://twitter.com/rukundoeric005)
   - LinkedIn: [LinkedIn](https://www.linkedin.com/in/rukundo-eric-000bba181/)
 
 👤 **Misori simon**
-  - GitHub: [@githubhandle](https://github.com/Misori-simon/)
-  - Twitter: [@twitterhandle](https://twitter.com/misori_simon)
+  - GitHub: [Misori-simon](https://github.com/Misori-simon/)
+  - Twitter: [@misori_simon](https://twitter.com/misori_simon)
   - LinkedIn: [LinkedIn](https://cm.linkedin.com/in/misori-simon-05906219b)
 
 ## 🤝 Contributing
