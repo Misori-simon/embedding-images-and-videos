@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://misori-simon.github.io/embedding-images-and-videos/.)
 
 ## Getting Started
 
