@@ -1,0 +1,524 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+}
+input, button{
+  border: 1px solid #e9e8e8;
+  border-radius: 0px;
+  outline: none;
+}
+i{
+  color: rgb(107, 107, 107);
+}
+
+.container{
+  width: 100%;
+  background-color: #F0F0F0;
+}
+.header-content{
+  padding: 15px 35px;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+}
+.logo{
+  display: table;
+  margin-top: 4px;
+}
+
+.logo i{
+  vertical-align: middle;
+  font-size: 22px;
+}
+.logo svg{
+  width: 100px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.search-bar{
+  display: table;
+}
+
+.search-bar input{
+  height: 30px;
+  width: 400px;
+  padding-left: 15px;
+  vertical-align: middle;
+}
+.search-bar button{
+ background-color: #F0F0F0; 
+ padding: 6.5px 15px;
+ vertical-align: middle;
+}
+.search-bar button i{
+  font-size: 18px;
+}
+
+.profile-icons{
+  display: table;
+}
+
+.profile-icons i{
+  vertical-align: middle;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.profile-icons img{
+  border-radius: 50%;
+  margin-left: 30px;
+  height: 35px;
+  vertical-align: middle;
+  width: 35px; 
+  object-fit: cover; 
+}
+
+.video-content{
+  display:grid;
+  grid-template-columns: 65% 35%;
+  padding: 20px 90px;
+
+}
+.main-video{
+  width: 100%;
+  
+}
+.main-video iframe{
+  width: 100%;
+  height: 500px;
+  border: 0;
+  outline:none;
+}
+.main-video-info{
+  display:flex;
+  justify-content: space-between;
+}
+.main-video-title{
+  padding: 10px 0;
+  font-size:14px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-video-views{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(117, 117, 117);
+  font-size: 13px;
+}
+
+.main-video-likes i{
+  vertical-align: middle;
+  font-size: 17px;
+}
+.main-video-likes label{
+  vertical-align: middle;
+  padding: 20px 8px;
+}
+
+.like,.dislike{
+  border-bottom: 3px solid rgb(151, 151, 151);
+}
+
+.main-video-likes span{
+  color:gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+.main-video-likes .share, .save, .more{
+  margin-left: 10px;
+}
+
+.channel-info{
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 10px 0 20px;
+  margin-top: 20px;
+}
+.channel-profile-info{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.channel-profile-info .profile{
+  display: flex;
+}
+
+.channel-profile-info .profile img{ 
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.channel-profile-info .profile p{
+  margin:0;
+}
+.channel-profile-info .profile label{
+  margin: 8px 0 0 10px;
+}
+.channel-profile-info .profile p:nth-of-type(1){
+  font-weight: 600;
+}
+.channel-profile-info .profile p:nth-of-type(2){
+  font-weight: 300;
+  color: rgb(94, 94, 94);
+}
+.channel-btn button{
+  font-size: 15px;
+  background-color: #CC0000;
+  color: white;
+  padding: 10px 10px ;
+  border-radius: 3px;
+}
+
+.video-desc{
+  padding: 5px 130px 0 70px;
+}
+.video-desc p{
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: justify;
+}
+.video-desc label{
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 50px 0;
+  cursor: pointer;
+}
+
+/*comment section*/
+.comment-section{
+display: flex;
+justify-content: left;
+}
+.comment-info{
+  padding: 10px 0px ;
+}
+.comment-info label{
+  margin-right: 10px;
+  font-size: 13px;
+  font-family: Verdana, Tahoma, sans-serif;
+  
+}
+.comment-info i{
+  font-size: 11px;
+}
+.comment-info label:nth-of-type(2){
+  color: gray;
+
+}
+
+/*comment input*/
+.comment-input{
+  display:flex;
+}
+.comment-input img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.comment-input input{
+ width:100%;
+ background: none;
+ outline: none;
+ border: none;
+ border-bottom: 1px solid lightgray;
+}
+/*on focus*/
+.comment-input input:focus{
+  
+  border-bottom: 2px solid black;
+ }
+ /**/
+ .comment-button{
+  
+   width:100%;
+   padding: 5px 0px;
+  
+ }
+ .comment-button button{
+  
+  float: right;
+  margin-left: 10px;
+  
+ }
+ .comment-button button:nth-of-type(1){
+  font-size: 15px;
+  background-color: #bebdbd;
+  color: white;
+  padding: 10px 10px ;
+  border-radius: 3px;
+  cursor: pointer;
+ }
+ .comment-button button:nth-of-type(2){
+   background: none;
+   border:none;
+   padding: 10px 10px ;
+   cursor: pointer;
+ }
+
+.comments{
+  clear: both;
+  padding: 10px 0;
+}
+
+.comment-item{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.comment-item .comment-item-info{
+  display: flex;
+}
+
+.comment-item  .comment-item-info img{ 
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* .comment-item .comment-item-info p{
+  margin:0;
+} */
+.comment-item-info > label{
+  margin-left: 15px;
+}
+.comment-item-info > label span:nth-of-type(1){
+  font-weight: 600;
+}
+.comment-item-info > label small{
+  font-weight: 300;
+  color: #555555;
+}
+.comment-item-info > label p{
+  font-weight: 500;
+  color: #111111;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.comment-item-info > label > div label{
+  margin: 0 10px 0 0;
+}
+.comment-item-info > label > div button{
+  margin: 0 10px 0 0;
+  font-weight: 700;
+  color: #4d4d4d;
+  border: 0;
+}
+
+.comment-item > div:nth-of-type(2) i{
+  font-size: 20px;
+  display: none;
+}
+
+.comment-item:hover > div:nth-of-type(2) i{
+  display: block;
+}
+.comment-item .replies{
+  font-size: 15px;
+  color: rgb(56, 42, 255);
+  font-weight: 590;
+}
+.comment-item .replies i{
+  font-size: 15px;
+  color: rgb(56, 42, 255);
+  font-weight: 590;
+  margin-right: 10px;
+}
+
+.other-videos{
+
+  padding: 15px 0px 15px 30px;
+}
+
+.other-videos .title{
+  display: flex;
+  justify-content: space-between;
+}
+.other-videos .title label:nth-of-type(1){
+  font-size: 18px;
+  color: #353535;
+}
+
+.other-videos .title > label:nth-of-type(2) > span{
+  font-size: 14px;
+  color: #4b4b4b;
+  font-weight: 600;
+  margin: 4px 10px 0 0;
+
+}
+.other-videos .title > label:nth-of-type(2){
+  display: flex;
+}
+.other-videos .title label:nth-of-type(2) label input{
+  width: 0px;
+  display: none;
+  height: 0px;
+}
+
+.other-videos .custom-check{
+  position: relative;
+  width: 35px;
+  height: 30px;
+}
+.other-videos .back{
+  background-color: #d6d6d6;
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  margin-top: 3.4px;
+  border-radius: 20px;
+ }
+.other-videos .ball{
+  background-color: #a1a1a1;
+  border-radius: 50%;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  box-shadow: 0px 3px 3px rgb(116, 116, 116);
+}
+#checkbox:checked  ~ .custom-check .ball{
+  left: 13px; 
+  background-color: #344bcc;
+  transition: all .5s ease-in-out;
+}
+
+.upnext{
+  padding: 10px 0px 15px;
+  border-bottom: 1px solid rgb(206, 205, 205);
+ 
+}
+
+.suggested{
+  width: 100%;
+  display: flex;
+  margin: 10px 0px;
+}
+.suggested .suggested-cap{
+  max-width: 180px;
+  position: relative;
+  
+  height: 100px;
+
+}
+.suggested-cap img{
+  width:100%;
+}
+.suggeted-details{
+  padding: 5px;
+}
+.suggested-control{
+  position:absolute;
+  top:2px;
+  right:2px;
+  
+}
+.suggested-control label{
+  display:block;
+  padding: 5px;
+  font-size:18px;
+  background-color: black;
+  margin-bottom: 4px;
+  border-radius:3px;
+  
+}
+.suggested-control label i{
+  color:white;
+}
+.video-clock{
+  opacity:0;
+}
+.video-que{
+  opacity:0;
+}
+
+
+.suggeted-details small{
+  display:block;
+  font-size:12px;
+  margin: 0px 0px 5px;
+  font-family: Roboto;
+}
+.suggeted-details .suggested-title{
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display:-webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.suggeted-details .suggested-channel{
+  margin-top:10px;
+  color:rgb(150, 146, 146);
+  font-weight: 600;
+  
+}
+
+.suggeted-details .suggested-info{
+  margin-top:10px;
+  color:rgb(150, 146, 146);
+  font-weight: 600;
+}
+
+.suggested .more{
+  opacity:0
+}
+.suggested:hover .more, .suggested-control{
+  opacity:1;
+}
+.suggested:hover .video-dur{
+  opacity:0;
+}
+.suggested:hover .video-clock{
+  opacity:1;
+}
+.suggested:hover .video-que{
+  opacity:1;
+}
+
+
+.video-dur{
+  position:absolute;
+  bottom:2px;
+  right:2px;
+  font-size: 12px;
+  font-weight: 600;
+  color:white;
+  background-color: black;
+  border-radius: 3px;
+  padding: 3px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
