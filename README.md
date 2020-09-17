@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Embedding images and videos
 > A structural clone of the youtube video player page. including suggeted videos and comment sections.
-![screenshot](screen-shot.jpg)
+![screenshot](screen-shot.JPG)
 
 
 ## Built With
